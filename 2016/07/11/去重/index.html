@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="数组去重," />
 
 
 
@@ -84,12 +84,22 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="sweetMelon">
-<meta property="og:url" content="http://yoursite.com/categories/测试/index.html">
+<meta name="description" content="数组去重，一道经典的javascript题目。这个方法的思路是先把数组排序，然后比较相邻的两个值。排序的时候，用js原生sort方法，效率还行！
+
+123456789101112Array.prototype.unique = function()&amp;#123;        this.sort();        var re=[this[0]];        for(var i = 1; i">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello Word">
+<meta property="og:url" content="http://yoursite.com/2016/07/11/去重/index.html">
 <meta property="og:site_name" content="sweetMelon">
+<meta property="og:description" content="数组去重，一道经典的javascript题目。这个方法的思路是先把数组排序，然后比较相邻的两个值。排序的时候，用js原生sort方法，效率还行！
+
+123456789101112Array.prototype.unique = function()&amp;#123;        this.sort();        var re=[this[0]];        for(var i = 1; i">
+<meta property="og:updated_time" content="2016-07-11T15:22:53.203Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="sweetMelon">
+<meta name="twitter:title" content="Hello Word">
+<meta name="twitter:description" content="数组去重，一道经典的javascript题目。这个方法的思路是先把数组排序，然后比较相邻的两个值。排序的时候，用js原生sort方法，效率还行！
+
+123456789101112Array.prototype.unique = function()&amp;#123;        this.sort();        var re=[this[0]];        for(var i = 1; i">
 
 
 
@@ -110,9 +120,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/测试/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/07/11/去重/"/>
 
-  <title> 分类: 测试 | sweetMelon </title>
+  <title> Hello Word | sweetMelon </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,7 +143,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -221,47 +231,149 @@
           <div id="content" class="content">
             
 
-  <section id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h2 >
-        测试
-        <small>分类</small>
-      </h2>
-    </div>
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Hello Word
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-11T23:15:26+08:00" content="2016-07-11">
+              2016-07-11
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/javascript/" itemprop="url" rel="index">
+                    <span itemprop="name">javascript</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/11/去重/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/11/去重/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
       
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+      
+        <blockquote>
+<p>数组去重，一道经典的javascript题目。<br>这个方法的思路是先把数组排序，然后比较相邻的两个值。<br>排序的时候，用js原生sort方法，效率还行！</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Array</span>.prototype.unique = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="keyword">this</span>.sort();</div><div class="line">        <span class="keyword">var</span> re=[<span class="keyword">this</span>[<span class="number">0</span>]];</div><div class="line">        <span class="keyword">for</span>(<span class="keyword">var</span> i = <span class="number">1</span>; i &lt; <span class="keyword">this</span>.length; i++)&#123;</div><div class="line">        <span class="keyword">if</span>( <span class="keyword">this</span>[i] !== re[re.length<span class="number">-1</span>])&#123;</div><div class="line">            re.push(<span class="keyword">this</span>[i]);</div><div class="line">            &#125;</div><div class="line">        &#125;      </div><div class="line">    <span class="keyword">return</span> re;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">var</span> arr = [<span class="number">110</span>,<span class="number">112</span>,<span class="number">119</span>,<span class="string">'hello'</span>,<span class="number">112</span>,<span class="number">112</span>,<span class="number">119</span>,<span class="string">'hello'</span>,<span class="string">'str'</span>,<span class="string">'str1'</span>];</div><div class="line">    alert(arr.unique());</div></pre></td></tr></table></figure>
+      
+    </div>
 
-      <h1 class="post-title">
+    <div>
+      
         
-            <a class="post-title-link" href="/2016/07/02/hello word/" itemprop="url">
-              
-                <span itemprop="name">Hello Word</span>
-              
-            </a>
+      
+    </div>
+
+    <div>
+      
         
-      </h1>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-02T04:41:07+08:00"
-              content="2016-07-02" >
-          07-02
-        </time>
-      </div>
+      
+    </div>
 
-    </header>
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/数组去重/" rel="tag">#数组去重</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/06/FileReader/" rel="next" title="FileReader">
+                <i class="fa fa-chevron-left"></i> FileReader
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </article>
 
 
-    
-  </section>
 
-  
-
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -269,6 +381,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/07/11/去重/"
+           data-title="Hello Word" data-url="http://yoursite.com/2016/07/11/去重/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -288,8 +408,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/sweetMelon.png"
@@ -339,6 +468,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -442,6 +582,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
